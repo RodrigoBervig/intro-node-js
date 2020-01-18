@@ -3,5 +3,20 @@
     "firstName": "adfsadf",
     "lastName": "asfdasdf",
     "phoneNumber": "asfdsf"
+  },
+  "Rodrigo Rocha": {
+    "firstName": "Rodrigo",
+    "lastName": "Rocha",
+    "phoneNumber": "(51) 99976-6072"
+  },
+  "Jose Antonio": {
+    "firstName": "Jose",
+    "lastName": "Antonio",
+    "phoneNumber": "51 93049980"
+  },
+  "Jane Rocha": {
+    "firstName": "Jane",
+    "lastName": "Rocha",
+    "phoneNumber": "51 9965592122"
   }
 }

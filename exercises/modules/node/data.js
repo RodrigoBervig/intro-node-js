@@ -1,6 +1,6 @@
-window.App = {
+const data = {
   users: [
-    {id: 1, name: 'Weezy'}
+    {id: 1, name: 'Weezy'}  
   ],
   posts: [
     {title: 'yo', body: 'I ate today', createdBy: 1},
@@ -8,3 +8,5 @@ window.App = {
     {title: 'My doggy', body: 'my dog is better than yours', createdBy: 1}
   ]
 }
+
+module.exports = data

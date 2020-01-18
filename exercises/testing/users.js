@@ -1,3 +1,4 @@
+//initialize users
 const users = new Array(20).fill(0)
 .map((_, i) => {
   return {
@@ -9,12 +10,14 @@ const users = new Array(20).fill(0)
 
 // simulate async db call with promise
 const findUser = (id) => new Promise((resolve, reject) => {
-  const user = users.find(user => user.id === id)
+  const user = users.find(user_search => user_search.id === id)
   if (user) {
     return resolve(user)
   }
   reject(new Error(`No user with id "${id}"`))
 })
+
+const fixId = (id) => parseInt(id)
 
 // simulate async db call with promise
 const deleteUser = (id) => new Promise((resolve, reject) => {
@@ -31,5 +34,6 @@ const deleteUser = (id) => new Promise((resolve, reject) => {
 
 module.exports = {
   findUser,
-  deleteUser
+  deleteUser,
+  fixId
 }
